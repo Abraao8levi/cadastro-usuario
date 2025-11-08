@@ -1,10 +1,11 @@
-package com.javabraao.cadastro_usuario.repository;
+package com.javabraao.cadastro_usuario.infrastructure.repository;
 
-import com.javabraao.cadastro_usuario.entity.Usuario;
+import java.util.Optional;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.Optional;
+import com.javabraao.cadastro_usuario.infrastructure.entity.Usuario;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {

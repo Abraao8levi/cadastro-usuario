@@ -1,11 +1,11 @@
 package com.javabraao.cadastro_usuario.business;
 
-import com.javabraao.cadastro_usuario.entity.Usuario;
-import com.javabraao.cadastro_usuario.repository.UsuarioRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
+import com.javabraao.cadastro_usuario.infrastructure.entity.Usuario;
+import com.javabraao.cadastro_usuario.infrastructure.repository.UsuarioRepository;
+
+import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
